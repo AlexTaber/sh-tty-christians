@@ -54,6 +54,7 @@
 						{{ $outer := . }}
 						{{ partial "posts/pagination.html" (dict "paginator" $paginator "outer" $outer)}}
 
+						{{ partial "about" . }}
 					</div>
 
 					{{ partial "footer/index" . }}

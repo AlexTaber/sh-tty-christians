@@ -2754,6 +2754,22 @@ table.alt tbody tr td {
       display: block; }
       #copyright ul li:first-child {
         margin-top: 0; } }
+.about .title {
+  text-align: center; }
+
+.podcaster {
+  width: 49.5%;
+  padding: 20px;
+  display: inline-block;
+  text-align: center; }
+  .podcaster img {
+    width: 40%;
+    border-radius: 100%; }
+  .podcaster p {
+    text-align: center;
+    font-size: 0.8rem;
+    margin: 0; }
+
 /* Nav Panel */
 #navPanelToggle {
   text-decoration: none;
