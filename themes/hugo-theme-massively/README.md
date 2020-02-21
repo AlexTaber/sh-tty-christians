@@ -28,7 +28,7 @@ The theme currently also supports the following ["internal templates" supplied b
 The cover image URL is hard-coded, therefore to replace this add an image to the following location in your Hugo application:
 
 ```
-/static/images/bg.jpg
+/static/images/bg.png
 ```
 
 ### Supported Languages
