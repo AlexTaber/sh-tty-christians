@@ -11,6 +11,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<meta name="description" content="Shitty Christians is a comedy podcast made by and about shitty christians. Each week is a deep dive into a different corner of a world few people really understand. Join us as we explore the intersections of faith and politics from a leftist perspective." />
 
+		<meta property="og:image" content="/images/bg.jpg" />
+
 		<!-- CSS -->
 		{{ if .Site.IsServer }}
 		{{ $style := resources.Get "scss/main.scss" | resources.ExecuteAsTemplate "main.scss" . | toCSS (dict "targetPath" "assets/css/main.css" "enableSourceMap" true) }}
