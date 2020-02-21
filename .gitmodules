@@ -1,7 +1,0 @@
-[submodule "themes/hugo-theme-massively"]
-	path = themes/hugo-theme-massively
-	url = https://github.com/curtistimson/hugo-theme-massively.git
-[submodule "public"]
-	path = public
-	url = https://github.com/AlexTaber/AlexTaber.github.io.git
-	branch = master
