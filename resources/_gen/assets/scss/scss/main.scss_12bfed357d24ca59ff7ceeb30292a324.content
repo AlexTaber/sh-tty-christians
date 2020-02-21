@@ -2068,7 +2068,7 @@ table.alt tbody tr td {
     font-size: 5rem;
     line-height: 1;
     width: 600px;
-    max-width: 80%;
+    max-width: 100%;
     text-align: center; }
   #intro h2 {
     font-size: 1.25rem;
