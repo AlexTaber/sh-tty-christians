@@ -1,13 +1,12 @@
 languageCode = "en-us"
 title = "Shitty Christians"
-baseURL = "https://alextaber.github.io/"
+baseURL = "https://www.shittychristians.com/"
 theme = "hugo-theme-massively"
 googleanalytics = ""
 disqusShortname = ""
 disableKinds = ["taxonomy", "taxonomyTerm", "section"]
 
 enableRobotsTXT = true
-canonifyURLs = true
 
 # [params]
   # set below parameter to define a favicon
