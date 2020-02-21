@@ -71,3 +71,15 @@
 	@import 'layout/about';
 	@import 'layout/podcaster';
 	@import 'layout/navPanel';
+
+// Global Styles
+
+.podcast-player {
+	width: 95%;
+}
+
+@media (min-width: 768px) {
+	.podcast-player {
+		width: 100%;
+	}
+}
