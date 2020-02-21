@@ -58,6 +58,10 @@
                 {{ with .spotify}}
                 <li><a href="{{ . }}" class="icon alt fa-spotify" target="_blank"><span class="label">Spotify</span></a></li>
                 {{ end }}
+
+                {{ with .itunes}}
+                <li><a href="{{ . }}" class="icon fa-podcast" target="_blank"><span class="label">Itunes</span></a></li>
+                {{ end }}
             </ul>
         </section>
         {{ end }}
