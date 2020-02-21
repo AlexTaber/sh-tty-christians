@@ -1,11 +1,11 @@
 .podcaster {
-    width: 49.5%;
+    width: 100%;
     padding: 20px;
     display: inline-block;
     text-align: center;
 
     img {
-        width: 140px;
+        width: 200px;
         max-width: 80%;
         border-radius: 100%;
     }
@@ -18,8 +18,11 @@
 }
 
 @media( min-width: 768px) {
-    .podcaster img {
-        width: 200px;
-        max-width: 60%;
+    .podcaster {
+        width: 49.5%;
+
+        img {
+            max-width: 60%;
+        }
     }
 }

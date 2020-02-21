@@ -2758,12 +2758,12 @@ table.alt tbody tr td {
   text-align: center; }
 
 .podcaster {
-  width: 49.5%;
+  width: 100%;
   padding: 20px;
   display: inline-block;
   text-align: center; }
   .podcaster img {
-    width: 140px;
+    width: 200px;
     max-width: 80%;
     border-radius: 100%; }
   .podcaster p {
@@ -2772,9 +2772,10 @@ table.alt tbody tr td {
     margin: 0; }
 
 @media (min-width: 768px) {
-  .podcaster img {
-    width: 200px;
-    max-width: 60%; } }
+  .podcaster {
+    width: 49.5%; }
+    .podcaster img {
+      max-width: 60%; } }
 
 /* Nav Panel */
 #navPanelToggle {
