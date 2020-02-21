@@ -2763,12 +2763,18 @@ table.alt tbody tr td {
   display: inline-block;
   text-align: center; }
   .podcaster img {
-    width: 40%;
+    width: 140px;
+    max-width: 80%;
     border-radius: 100%; }
   .podcaster p {
     text-align: center;
     font-size: 0.8rem;
     margin: 0; }
+
+@media (min-width: 768px) {
+  .podcaster img {
+    width: 200px;
+    max-width: 60%; } }
 
 /* Nav Panel */
 #navPanelToggle {
