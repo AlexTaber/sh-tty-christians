@@ -1,10 +1,13 @@
 languageCode = "en-us"
-title = "Shitty Christians"
+title = "Shitty Christians | A Comedy Podcast About the Evils of Capitalism and Kirk Cameron"
 baseURL = "http://localhost:1313/"
 theme = "hugo-theme-massively"
 googleanalytics = ""
 disqusShortname = ""
 disableKinds = ["taxonomy", "taxonomyTerm", "section"]
+
+enableRobotsTXT = true
+canonifyURLs = true
 
 # [params]
   # set below parameter to define a favicon
